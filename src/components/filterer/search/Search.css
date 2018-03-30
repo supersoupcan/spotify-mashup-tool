@@ -1,0 +1,108 @@
+input{
+  border: none;
+  font-size: 22px;
+}
+
+.button{
+  font-size: 16px;
+}
+
+.icon{
+  margin: 5px;
+  font-size: 22px;
+}
+
+.selectedContainer{
+  display: flex;
+  justify-content: center;
+  align-items : center;
+}
+
+.selectedDelete{
+  composes : icon;
+  opacity: 0.5;
+  color: red;
+}
+
+.selectedImage{
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
+}
+
+.selectedName{
+  font-size: 22px;
+  margin: 5px;
+}
+
+.selectedDelete:hover{
+  opacity: 1;
+}
+
+
+.container{
+  margin-top: 25px;
+  text-align: center;
+}
+
+.artists{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.artist{
+  width: 50%;
+  min-width: 250px;
+}
+
+.searchBarHolder{
+  position: relative;
+  display: inline-block;
+}
+
+.searchBar{
+  font-size: 22px;
+  display:inline-flex;
+  border : 1px solid black;
+  padding: 2.5px;
+}
+
+.dropDown{
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-top: none;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+
+.dropDownItem{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px;
+}
+
+.dropDownItem:hover{
+  background-color: #3399FF;
+}
+
+.dropDownName{
+  font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dropDownImage{
+  margin:right;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-right : 1px solid black;
+}

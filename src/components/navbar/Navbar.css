@@ -1,0 +1,61 @@
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a{
+  color: white;
+  margin: 0px 10px;
+}
+
+.navBar{
+  background-color: black;
+}
+
+.menuRegion{
+  display: flex;
+  margin: auto;
+  width: 70%;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.leftBox{
+  display: flex;
+  margin: 10px;
+}
+
+.rightBox{
+  display: flex;
+  margin: 10px;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+.profileImg{
+  margin: 0px 10px;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+}
+
+
+

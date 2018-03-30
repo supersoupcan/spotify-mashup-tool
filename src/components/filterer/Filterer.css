@@ -1,0 +1,49 @@
+select{
+  font-size: 18px;
+  margin: 0px 5px;
+}
+
+.discographies{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.discography{
+  width: 45%;
+}
+
+.filters{
+  margin-top: 20px;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.filter{
+  text-align : center;
+}
+
+.label{
+  font-size: 22px;
+}
+
+.tempo{
+  composes: filter;
+}
+
+.tempoInput{
+  width: 60px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.settings{
+  composes: filter;
+}
+
+.key{
+  composes: filter;
+}

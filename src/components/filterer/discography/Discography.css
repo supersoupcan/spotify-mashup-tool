@@ -1,0 +1,46 @@
+.discography{
+  width: 48%;
+  margin: 5px 1%;
+  background-color: lightGrey;
+}
+
+.song{
+  display: flex;
+  margin : 2.5px;
+  cursor: pointer;
+}
+
+.songAttr{
+  font-size: 18px;
+  flex : 1;
+  margin: 0px 5px;
+}
+
+.noResults{
+  font-size: 18px;
+  text-align: center;
+}
+
+.name{
+  composes: songAttr;
+  flex: 2;
+  float: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.time{
+  composes: songAttr;
+  text-align: right;
+}
+
+.key{
+  composes: songAttr;
+  text-align: right;
+}
+
+.tempo{
+  composes: songAttr;
+  text-align: right;
+}

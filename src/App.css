@@ -1,0 +1,48 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  height : 100%;
+}
+
+
+html{
+  height : 100%;
+}
+
+.app{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content{
+  flex: 1 0 auto;
+  margin: auto;
+  width: 100%
+}
+
+.plea{
+  width: 700px;
+  margin: 20px auto;
+}
+
+.margin{
+  margin: 5px auto;
+}
+
+.center{
+  text-align: center;
+  margin: 25px auto;
+}
+
+.discographies{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer{
+  flex-shrink: 0;
+}
